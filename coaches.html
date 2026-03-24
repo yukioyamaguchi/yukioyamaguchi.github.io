@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>講師紹介 — Complete Program</title>
+  <meta name="description" content="杉田健吾（先生）と山口幸男（先輩）。二人の「先輩」が、あなたと一緒に歩きます。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">Complete Program</a>
+      <button class="nav__toggle" id="navToggle" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="demo.html" class="nav__link">できること</a></li>
+        <li><a href="system.html" class="nav__link">仕組み</a></li>
+        <li><a href="ai-team.html" class="nav__link">AI組織</a></li>
+        <li><a href="curriculum.html" class="nav__link">カリキュラム</a></li>
+        <li><a href="coaches.html" class="nav__link nav__link--active">講師</a></li>
+        <li><a href="overview.html" class="nav__link">参加概要</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <h1 class="page-hero__title">二人の<span class="text-accent">「先輩」</span>が、<br>あなたと歩きます。</h1>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="coach-grid fade-in">
+        <div class="coach-card">
+          <div class="coach-card__avatar">杉</div>
+          <div class="coach-card__name">杉田 健吾</div>
+          <div class="coach-card__role">あなたの「先生」</div>
+          <div class="coach-card__desc">
+            知識・経験をビジネスにする<br>
+            設計図を描く人。<br><br>
+            「こういうふうに考えるんだよ」<br>
+            と、フレームワークを教えてくれる。
+          </div>
+        </div>
+
+        <div class="coach-card">
+          <div class="coach-card__avatar">山</div>
+          <div class="coach-card__name">山口 幸男</div>
+          <div class="coach-card__role">あなたの「先輩」</div>
+          <div class="coach-card__desc">
+            AIで設計図を一気に形にする<br>
+            サポーター。<br><br>
+            先生ではなく、<br>
+            少し先を歩く「先輩」として。
+          </div>
+        </div>
+      </div>
+
+      <!-- Talk Video -->
+      <div class="video-block mt-64 fade-in">
+        <p class="video-block__label">なぜ、このプログラムを作ったのか。</p>
+        <div class="video-block__player">
+          <div class="video-block__placeholder">
+            <div class="video-block__play-icon">▶</div>
+            <span class="video-block__placeholder-text">対談動画（3-5分）</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta-section fade-in">
+    <p class="cta-section__desc">プログラムの参加概要・個別相談のご案内はこちら</p>
+    <a href="overview.html" class="btn btn--outline">参加概要を見る →</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 Complete Program. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
